@@ -4,7 +4,7 @@ var endSlideinFoxkeh = function(){
 	foxkeh.setAttribute("class", "slidein");
 	//foxkeh()のclassをslideinに変更
 
-	foxkeh.setAttribute("class", "");
+
 };
 
 var startSlideinFoxkeh = function(){
