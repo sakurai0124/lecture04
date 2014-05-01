@@ -1,9 +1,9 @@
 var endSlideinFoxkeh = function(){
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
-<<<<<<< HEAD
+
 	foxkeh.setAttribute("class", "slidein");
 	//foxkeh()のclassをslideinに変更
-=======
+
 	foxkeh.setAttribute("class", "");
 };
 
@@ -14,7 +14,7 @@ var startSlideinFoxkeh = function(){
 	foxkeh.addEventListener("animationend", endSlideinFoxkeh);
 	//イベントハンドラの登録：endSlideinFoxkeh　イベント、要素：animationend, foxkeh
 	
->>>>>>> origin/make_slidein_retriable
+//>>>>>>> origin/make_slidein_retriable
 };
 
 var slideinFoxkehButton = document.querySelector("#slidein-foxkeh button");
